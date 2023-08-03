@@ -1,0 +1,65 @@
+.container {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container h1,
+h2 {
+  color: wheat;
+  text-align: center;
+  font-size: 30px;
+  padding: 0 20px;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: royalblue;
+  text-align: center;
+  font-size: 30px;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+.container input,
+.container textarea {
+  height: 20px;
+  border-radius: 10px;
+  border-color: blueviolet;
+  padding: 20px;
+  font-weight: 600;
+}
+
+.container button {
+  border-radius: 10px;
+  border-color: blueviolet;
+  padding: 10px;
+  font-weight: 600;
+}
+.container button:hover {
+  cursor: pointer;
+}
+.todos {
+  margin-top: 20px;
+}
+.title {
+  margin: 20px 0;
+}
+.todos ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: large;
+  list-style: decimal !important;
+}
+.todos p {
+  white-space: pre-wrap;
+}
+.todos .completed {
+  text-decoration-line: line-through;
+  color: slateblue;
+}

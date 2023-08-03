@@ -1,11 +1,13 @@
+import AddTodoForm from "./components/AddTodoForm"
 
-import AddTodoForm from '../components/AddTodoForm'
+
 
 function App() {
 
 
   return (
-    <><AddTodoForm/></>
+    <main
+    ><AddTodoForm/></main>
   )
 }
 
