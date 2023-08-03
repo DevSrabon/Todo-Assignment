@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-require("dotenv").config();
 
 // Database connection setup
 const database = (module.exports = () => {
@@ -11,7 +10,7 @@ const database = (module.exports = () => {
 
   try {
     mongoose.connect(process.env.DATABASE, connectionParams);
-    console.log("Database connected succesfully");
+    console.log("Database connected successfully");
   } catch (error) {
     console.log(error);
     console.log("Database connection failed");
